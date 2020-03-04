@@ -3,7 +3,6 @@ const Contract = require('../models/Contract');
 const { Blockchain, wallet } = require('../services/blockchain');
 const { utils } = require('ethers');
 
-
 module.exports = {
   async index(req, res) {
     let search = {};
